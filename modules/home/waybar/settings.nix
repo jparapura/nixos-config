@@ -41,7 +41,6 @@ in
       "pulseaudio"
       "network"
       "battery"
-      "hyprland/language"
       "custom/notification"
       "custom/power-menu"
     ];
@@ -140,14 +139,6 @@ in
       format-time = "{H}h{M}m";
       tooltip = true;
       tooltip-format = "{time}";
-    };
-    "hyprland/language" = {
-      tooltip = true;
-      tooltip-format = "Keyboard layout";
-      format = "<span foreground='#FABD2F'> </span> {}";
-      format-fr = "FR";
-      format-en = "US";
-      on-click = "hyprctl switchxkblayout at-translated-set-2-keyboard next";
     };
     "custom/launcher" = {
       format = "";
