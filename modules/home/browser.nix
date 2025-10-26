@@ -2,6 +2,8 @@
 {
   imports = [ inputs.zen-browser.homeModules.beta ];
 
+  programs.brave.enable = true;
+
   programs.zen-browser.enable = true;
 
   xdg.mimeApps =
