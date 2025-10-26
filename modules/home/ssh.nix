@@ -29,6 +29,15 @@
         identityFile = "~/.ssh/id_github";
         identitiesOnly = true;
       };
+
+      mikrus = {
+        host = "mikrus";
+        hostname = "frog01.mikr.us";
+        user = "frog";
+        port = 12222;
+        identityFile = "~/.ssh/id_mikrus";
+        identitiesOnly = true;
+      };
     };
   };
 
