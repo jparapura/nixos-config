@@ -14,6 +14,7 @@
     ## Office
     libreoffice
     gnome-calculator
+    keepassxc
 
     ## Utility
     dconf-editor
