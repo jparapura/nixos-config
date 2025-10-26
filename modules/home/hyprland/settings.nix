@@ -3,7 +3,7 @@
   wayland.windowManager.hyprland.settings = {
     input = {
       kb_layout = "pl";
-      kb_options = "grp:alt_caps_toggle";
+      kb_options = "grp:alt_caps_toggle,caps:swapescape";
       numlock_by_default = true;
       repeat_delay = 300;
       follow_mouse = 0;
