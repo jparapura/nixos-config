@@ -15,6 +15,7 @@
     libreoffice
     gnome-calculator
     keepassxc
+    anki-bin
 
     ## Utility
     dconf-editor
