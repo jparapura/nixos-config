@@ -5,8 +5,8 @@
 
     settings = {
       user = {
-        name = "Frost-Phoenix";
-        email = "67cyril6767@gmail.com";
+        name = "Jakub Parapura";
+        email = "jakubparapura@gmail.com";
       };
 
       init.defaultBranch = "main";
@@ -20,7 +20,7 @@
           "gh:"
           "https://github.com/"
         ];
-        "git@github.com:frost-phoenix/".insteadOf = "fp:";
+        "git@github.com:jparapura/".insteadOf = "fp:";
       };
 
       core.excludesFile = "/home/${username}/.config/git/.gitignore";
