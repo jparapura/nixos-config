@@ -10,6 +10,10 @@
         libvdpau-va-gl
       ];
     };
+    bluetooth = {
+      enable = true;
+      powerOnBoot = true;
+    };
   };
   hardware.enableRedistributableFirmware = true;
 }
