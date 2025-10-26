@@ -38,6 +38,15 @@
         identityFile = "~/.ssh/id_mikrus";
         identitiesOnly = true;
       };
+
+      ovh = {
+        host = "ovh";
+        hostname = "vps-a0cbd848.vps.ovh.net";
+        user = "debian";
+        port = 22;
+        identityFile = "~/.ssh/id_ovh";
+        identitiesOnly = true;
+      };
     };
   };
 
