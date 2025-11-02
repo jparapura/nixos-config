@@ -10,6 +10,7 @@
     soundwireserver
     video-trimmer
     vlc
+    qbittorrent
 
     ## Office
     libreoffice
