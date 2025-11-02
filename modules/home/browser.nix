@@ -2,7 +2,21 @@
 {
   imports = [ inputs.zen-browser.homeModules.beta ];
 
-  programs.brave.enable = true;
+  programs.brave = {
+    enable = true;
+    extensions = [
+      { id = "dbepggeogbaibhgnhhndojpepiihcmeb"; } # Vimium
+      { id = "hedijgjklbddpidomdhhngflipnibhca"; } # Leetcode Difficulty Rating
+      { id = "ngfkbnbpdgfeaaipaanopmhfbbkfcnhn"; } # CSES Helper
+      { id = "eimadpbcbfnmbkopoojfekhnkhdbieeh"; } # Dark Reader
+      { id = "kjacjjdnoddnpbbcjilcajfhhbdhkpgk"; } # Forest
+      { id = "bcjindcccaagfpapjjmafapmmgkkhgoa"; } # JSON Formatter
+      { id = "fjcldmjmjhkklehbacihaiopjklihlgg"; } # News Feed Eradicator
+      { id = "hdhinadidafjejdhmfkjgnolgimiaplp"; } # Read Aloud
+      { id = "oghiinfmhnkmfecckbpcoieaieobblog"; } # Satori Enhancements
+      { id = "khncfooichmfjbepaaaebmommgaepoid"; } # Remove YouTube Recommended
+    ];
+  };
 
   programs.zen-browser.enable = true;
 
