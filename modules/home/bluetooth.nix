@@ -18,6 +18,9 @@
       bt-jbl() {
         bt-conn-mac "F8:5C:7E:D3:82:7B"
       }
+      bt-gid() {
+        bt-conn-mac "7C:96:D2:F9:02:8F"
+      }
     '';
   };
 }
