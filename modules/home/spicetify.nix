@@ -14,11 +14,8 @@ in
       keyboardShortcut
       shuffle
       seekSong
-      hidePodcasts
-      adblock
       volumePercentage
       queueTime
-      autoSkipVideo
       playNext
     ];
   };
