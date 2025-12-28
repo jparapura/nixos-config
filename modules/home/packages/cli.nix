@@ -78,6 +78,7 @@
     playerctl                         # controller for media players
     poweralertd
     udiskie                           # Automounter for removable media
+    zip
     unzip
     wget
     wl-clipboard                      # clipboard utils for wayland (wl-copy, wl-paste)
