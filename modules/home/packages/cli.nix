@@ -38,6 +38,9 @@
     toipe                             # typing test in the terminal
     ttyper                            # cli typing test
 
+    # Network tools
+    lsof
+
     ## Monitoring / fetch
     htop
     onefetch                          # fetch utility for git repo
